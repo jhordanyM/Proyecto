@@ -6,7 +6,7 @@ const Footer = (props) => {
             <div className="row">
             <div className="col-12 col-md">
                 <img className="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24" />
-                <small className="d-block mb-3 text-muted">&copy; 2017-2019</small>
+                <small className="d-block mb-3 text-muted">&copy; 2019-2020</small>
             </div>
             <div className="col-6 col-md">
                 <h5>Features</h5>
