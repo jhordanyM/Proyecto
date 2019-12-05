@@ -1,21 +1,16 @@
-import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import Main from '../components/Main'
-const App = () => {
-    return(
-        <>
-            <NavBar 
-                companyName="TITULO"
-                features="Caracteristicas"
-                pricing="Precios"
-                support="Soporte"
-                enterprise="Mis Productos"
-            />
-            <Main main="Venecosis"/>
-            <Footer char="SOSPoli"/>
-        </>
-    )
-};
+import React, {component} from 'react';
+import ModuloDoc from '../containers/ModuloDoc';
+import Ex from '../containers/Ex';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import moduleDoc from '../containers/ModuloDoc';
+
+const App = () => (
+  <Router>
+    <Switch>
+      <Route exact strict path="/ModuloDoc" component={moduleDoc} />
+      <Route exact strict path="/Ex" component={Ex} />
+    </Switch>
+  </Router>
+);
 
 export default App;

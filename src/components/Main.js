@@ -8,7 +8,6 @@ class Main extends React.Component{
 
    handleClick = asignaciones_Est =>{
        console.log('Click');
-       window.open("https://www.w3schools.com");
    }
     
     render(){
