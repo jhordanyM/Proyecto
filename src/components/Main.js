@@ -28,11 +28,11 @@ class Main extends React.Component{
                             <h4 className="my-0 font-weight-normal">Gestion estudiante</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title"> Estudiantes</h1>
+                            <h1 className="card-title pricing-card-title"> Docente</h1>
                             <ul className="list-unstyled mt-3 mb-4">
-                            <li>Registro de estudiantes, validacion de estado y vinculacion del docente-estudiante</li>
+                            <li>Gestion de estudiantes, estado y vinculacion del docente-estudiante.</li>
                             </ul>
-                            <button onClick={this.handleClick} type="button" className="btn btn-lg btn-block btn-primary" id="asignaciones_Est">Asignaciones</button>
+                            <a href="http://localhost:3000/ex" type="button" className="btn btn-lg btn-block btn-primary" id="Gest_Est">Asignaciones</a>
                         </div>
                         </div>
                         <div className="card mb-4 shadow-sm">
@@ -40,11 +40,11 @@ class Main extends React.Component{
                             <h4 className="my-0 font-weight-normal">Gestion Tiempo</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">Docentes</h1>
+                            <h1 className="card-title pricing-card-title">Docente</h1>
                             <ul className="list-unstyled mt-3 mb-4">
-                            <li>Asignaciones de tiempo de las tareas realizadas por los estudiantes</li>
+                            <li>Gestion de tiempo de tareas empleadas o asignadas a los estudiantes.</li>
                             </ul>
-                            <button onClick={this.handleClick} type="button" className="btn btn-lg btn-block btn-primary" id="asignaciones_Tiempo"> Asignaciones</button>
+                            <a href="#" type="button" className="btn btn-lg btn-block btn-primary" id="Gest_Tie">Asignaciones</a>
                         </div>
                         </div>
                         <div className="card mb-4 shadow-sm">
@@ -52,11 +52,12 @@ class Main extends React.Component{
                             <h4 className="my-0 font-weight-normal">Gestion Tareas</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">Docentes</h1>
+                            <h1 className="card-title pricing-card-title">Docente</h1>
                             <ul className="list-unstyled mt-3 mb-4">
-                            <li>Descripcion</li>
+                            <li>Gestion de tares y asignaciones a los estudiantes.</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-primary" id="asignaciones_Tarea">Asignaciones</button>
+                            <a href="#" type="button" className="btn btn-lg btn-block btn-primary" id="Gest_Tar">Asignaciones</a>
+
                         </div>
                         </div>
                     </div>

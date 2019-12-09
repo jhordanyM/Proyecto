@@ -7,10 +7,9 @@ const moduleDoc = () => {
         <>
             <NavBar 
                 companyName="TITULO"
-                features="Caracteristicas"
-                pricing="Precios"
-                support="Soporte"
-                enterprise="Mis Productos"
+                changePassword ="Cambiar contraseña"
+                profile = 'perfil'
+
             />
             <Main main="Venecosis"/>
             <Footer char="SOSPoli"/>
