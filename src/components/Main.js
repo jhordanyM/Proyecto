@@ -57,9 +57,9 @@ class Main extends React.Component{
                             <li>Gestion de tares y asignaciones a los estudiantes.</li>
                             </ul>
                             <a href="#" type="button" className="btn btn-lg btn-block btn-primary" id="Gest_Tar">Asignaciones</a>
-
                         </div>
                         </div>
+                        
                     </div>
                 </div>
             </>
