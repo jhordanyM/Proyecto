@@ -3,7 +3,7 @@ import ModuloDoc from '../containers/ModuloDoc';
 import Ex from '../containers/Ex';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import moduleDoc from '../containers/ModuloDoc';
-import Login from '../containers/Login';
+import Login from './login2';
 
 const App = () => (
   <Router>
