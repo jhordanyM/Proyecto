@@ -11,11 +11,20 @@ const Login = props => {
     const [mensajes, setmensajes] = useState({});
 
     console.log(formulario)
-    const validarDatos = () => {
-        if (isNaN(formulario.password) && formulario.password != '' && formulario.user !='jhordany') {
+    const validarDatosP = () => {
+        if (isNaN(formulario.password) && formulario.password != '') {
             setmensajes({
                 ...mensajes,
                 password: "Datos incorrectos"
+            })
+        }
+    
+    }
+    const validarDatosU = () => {
+        if (formulario.user != 'Dany') {
+            setmensajes({
+                ...mensajes,
+                user: "Datos incorrectos"
             })
         } else {
            window.location.replace('http://localhost:3000/ModuloDoc')
@@ -73,13 +82,12 @@ const Login = props => {
                         />
                         <p>
                             {mensajes.password}
-                            {mensajes.user}
                         </p>
                         <br />
                         <button
                             className="btn btn-lg btn-block btn-primary"
                             id="Gest_Tar"
-                            onClick={validarDatos}
+                            onClick={validarDatosP, validarDatosU}
 
 
 >
